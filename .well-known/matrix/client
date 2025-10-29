@@ -1,1 +1,9 @@
-{"m.homeserver":{"base_url":"https://synapse.matrix.ukps.digital"}}
+{
+  "m.homeserver": {
+    "base_url":"https://synapse.matrix.ukps.digital"
+  },
+  "org.matrix.msc2965.authentication": {
+    "issuer": "https://account.matrix.ukps.digital/",
+    "account": "https://account.matrix.ukps.digital/account/"
+  }
+}
